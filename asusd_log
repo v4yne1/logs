@@ -1,0 +1,75 @@
+Maj 05 21:50:43 b0x systemd[1]: Starting ASUS Notebook Control...
+Maj 05 21:50:45 b0x asusd[1044]: INFO:        daemon v4.6.2
+Maj 05 21:50:45 b0x asusd[1044]: INFO:     rog-anime v4.6.2
+Maj 05 21:50:45 b0x asusd[1044]: INFO:      rog-aura v4.6.2
+Maj 05 21:50:45 b0x asusd[1044]: INFO:      rog-dbus v4.6.2
+Maj 05 21:50:45 b0x asusd[1044]: INFO:  rog-profiles v4.6.2
+Maj 05 21:50:45 b0x asusd[1044]: INFO: rog-platform v4.6.2
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Loaded default LED support data from /usr/share/asusd/aura_support.ron
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Using generic LED control for keyboard brightness only
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Using device at: "/dev/hidraw0" for LED control
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found keyboard LED controls at "asus::kbd_backlight"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Power: Checking "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0a/ACPI0003:00/power_supply/ADP0"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found mains power at "ADP0"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Power: Checking "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0a/PNP0C0A:03/power_supply/BAT0"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found a battery
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Checking battery attributes
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found battery power at "BAT0", matched charge_control_end_threshold
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Power: Checking "/sys/devices/platform/USBC000:00/power_supply/ucsi-source-psy-USBC000:001"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found USB-C power at "ucsi-source-psy-USBC000:001"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found platform support at "asus-nb-wmi"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Product family: ROG Zephyrus G16
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Board name: GU603VI
+Maj 05 21:50:45 b0x asusd[1044]: AniMe Matrix:
+Maj 05 21:50:45 b0x asusd[1044]:         Anime Matrix control: false
+Maj 05 21:50:45 b0x asusd[1044]: Charge:
+Maj 05 21:50:45 b0x asusd[1044]:         Battery charge limit control: true
+Maj 05 21:50:45 b0x asusd[1044]: Platform profiles:
+Maj 05 21:50:45 b0x asusd[1044]:         platform: true
+Maj 05 21:50:45 b0x asusd[1044]:         fan curves: true
+Maj 05 21:50:45 b0x asusd[1044]: LED:
+Maj 05 21:50:45 b0x asusd[1044]:         Device ID: 0x19B6
+Maj 05 21:50:45 b0x asusd[1044]:         Brightness control: true
+Maj 05 21:50:45 b0x asusd[1044]:         Basic modes: []
+Maj 05 21:50:45 b0x asusd[1044]:         Basic zones: []
+Maj 05 21:50:45 b0x asusd[1044]:         Advanced modes: None
+Maj 05 21:50:45 b0x asusd[1044]: ROG BIOS:
+Maj 05 21:50:45 b0x asusd[1044]:         POST sound switch: false
+Maj 05 21:50:45 b0x asusd[1044]:         Panel Overdrive: true
+Maj 05 21:50:45 b0x asusd[1044]:         dGPU disable switch: true
+Maj 05 21:50:45 b0x asusd[1044]:         eGPU enable switch: false
+Maj 05 21:50:45 b0x asusd[1044]:         GPU MUX control: true
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Parsed RON for "daemon::config::Config"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found platform support at "asus-nb-wmi"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Switch for POST boot sound not detected
+Maj 05 21:50:45 b0x asusd[1044]: INFO: inotify watch failed: Attribute not found: egpu_enable. You can ignore this if your device does not support the feature
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Power: Checking "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0a/ACPI0003:00/power_supply/ADP0"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found mains power at "ADP0"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Power: Checking "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0a/PNP0C0A:03/power_supply/BAT0"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found a battery
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Checking battery attributes
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found battery power at "BAT0", matched charge_control_end_threshold
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Power: Checking "/sys/devices/platform/USBC000:00/power_supply/ucsi-source-psy-USBC000:001"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found USB-C power at "ucsi-source-psy-USBC000:001"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Battery charge limit: 85
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Parsed RON for "daemon::ctrl_profiles::config::ProfileConfig"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found platform support at "asus-nb-wmi"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: CtrlPlatformProfile: Device has profile control available
+Maj 05 21:50:45 b0x asusd[1044]: INFO: CtrlPlatformProfile: Device has fan curves available
+Maj 05 21:50:45 b0x asusd[1044]: INFO: CtrlPlatformProfile: Fan curves previously stored, loading...
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Parsed RON for "daemon::ctrl_profiles::config::FanCurveConfig"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Parsed RON for "daemon::ctrl_anime::config::AnimeConfig"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: AniMe control: Missing functionality: USBRaw dev 6459 not found
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Loaded default LED support data from /usr/share/asusd/aura_support.ron
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Using generic LED control for keyboard brightness only
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Looked for keyboard controller 0xtuf: Missing functionality: hidraw dev tuf not found
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Looked for keyboard controller 0x1854: Missing functionality: hidraw dev 1854 not found
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Looked for keyboard controller 0x1869: Missing functionality: hidraw dev 1869 not found
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Looked for keyboard controller 0x1866: Missing functionality: hidraw dev 1866 not found
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Looked for keyboard controller 0x18c6: Missing functionality: hidraw dev 18c6 not found
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Using device at: "/dev/hidraw0" for LED control
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Looked for keyboard controller 0x19b6: Found
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found keyboard LED controls at "asus::kbd_backlight"
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Found ROG USB keyboard
+Maj 05 21:50:45 b0x asusd[1044]: INFO: Parsed RON for "daemon::ctrl_aura::config::AuraConfig"
+Maj 05 21:50:45 b0x systemd[1]: Started ASUS Notebook Control.

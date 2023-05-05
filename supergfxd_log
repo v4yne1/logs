@@ -1,0 +1,29 @@
+Maj 05 21:50:43 b0x systemd[1]: Starting SUPERGFX...
+Maj 05 21:50:43 b0x supergfxd[873]: INFO: Daemon version: 5.1.1
+Maj 05 21:50:43 b0x systemd[1]: Started SUPERGFX.
+Maj 05 21:50:43 b0x supergfxd[873]: INFO: DiscreetGpu::new: Rescanning PCI bus
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: Looking at PCI device "0000:00:00.0"
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: Looking at PCI device "0000:00:01.0"
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: Looking at PCI device "0000:01:00.0"
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: Found non-boot_vga 10DE:2860 at "0000:01:00.0"
+Maj 05 21:50:43 b0x supergfxd[873]: INFO: Found dgpu 10DE:2860 at "0000:01:00.0"
+Maj 05 21:50:43 b0x supergfxd[873]: INFO: Found hotplug power slot at "/sys/bus/pci/slots/1/power"
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: Looking at PCI device "0000:01:00.1"
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: Didn't find dGPU with standard methods, using last resort for id:10DE:22BD at "0000:01:00.1"
+Maj 05 21:50:43 b0x supergfxd[873]: INFO: Found additional device 10DE:22BD at "0000:01:00.1"
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: Looking at PCI device "0000:00:02.0"
+Maj 05 21:50:43 b0x supergfxd[873]: INFO: supergfxd.mode not set, ignoring
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: do_mode_setup_tasks(mode:Hybrid, vfio_enable:false, asus_use_dgpu_disable: None)
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: asus_reload: asus_use_dgpu_disable: false
+Maj 05 21:50:43 b0x supergfxd[873]: INFO: create_modprobe_conf: writing /etc/modprobe.d/supergfxd.conf
+Maj 05 21:50:43 b0x supergfxd[873]: INFO: do_rescan: Rescanning PCI bus
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: do_driver_action: action = modprobe, [Device { dev_path: "/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0", hotplug_path: Some("/sys/bus/pci/slots/1/power"), vendor: Nvidia, is_dgpu: true, name: "0000:01:00.0", pci_id: "10DE:2860" }, Device { dev_path: "/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.1", hotplug_path: None, vendor: Nvidia, is_dgpu: false, name: "0000:01:00.1", pci_id: "10DE:22BD" }]
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: Did modprobe for driver nvidia_drm
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: Did modprobe for driver nvidia_modeset
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: Did modprobe for driver nvidia_uvm
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: Did modprobe for driver nvidia
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: Did CommandArgs { inner: ["start", "nvidia-powerd.service"] }
+Maj 05 21:50:43 b0x supergfxd[873]: DEBUG: set_runtime_pm: pm = Auto, [Device { dev_path: "/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0", hotplug_path: Some("/sys/bus/pci/slots/1/power"), vendor: Nvidia, is_dgpu: true, name: "0000:01:00.0", pci_id: "10DE:2860" }, Device { dev_path: "/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.1", hotplug_path: None, vendor: Nvidia, is_dgpu: false, name: "0000:01:00.1", pci_id: "10DE:22BD" }]
+Maj 05 21:50:43 b0x supergfxd[873]: INFO: set_runtime_pm: Set PM on "/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0" to Auto
+Maj 05 21:50:43 b0x supergfxd[873]: INFO: set_runtime_pm: Set PM on "/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.1" to Auto
+Maj 05 21:50:43 b0x supergfxd[873]: INFO: reload: Reloaded gfx mode: Hybrid
